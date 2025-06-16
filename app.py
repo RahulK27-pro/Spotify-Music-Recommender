@@ -10,10 +10,6 @@ import numpy as np
 # Apply custom styling
 apply_custom_style()
 
-# Spotify API credentials
-CLIENT_ID = "fe36360b8b8242389605cf89e3858128"
-CLIENT_SECRET = "06d82531d2fd4b0ab49a79d95153f3cb"
-
 # Initialize Spotify client with client credentials
 client_credentials_manager = SpotifyClientCredentials(
     client_id=CLIENT_ID,
